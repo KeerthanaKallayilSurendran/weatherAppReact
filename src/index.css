@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: rgb(7, 123, 136);
+  background: linear-gradient(180deg, rgba(7, 123, 136, 1) 0%, rgba(107, 182, 188, 1) 25%, rgba(157, 198, 202, 1) 50%, rgba(226, 204, 198, 1) 80%, rgba(251, 159, 139, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card {
+  background-color: #faa897;
+  height: 550px;
+  width: 380px;
+}
